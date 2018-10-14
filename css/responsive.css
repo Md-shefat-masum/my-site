@@ -1,0 +1,256 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media screen and (max-width: 575.98px) {
+
+    .common-heading h3 {
+        font-size: 30px;
+    }
+
+    /*    banner left body*/
+    #banner .container .row .col-md-7 .banner-left-body {
+        margin-top: 45%;
+    }
+    #banner .container .row .col-md-7 .banner-left-body {
+        text-align: center;
+    }
+    #banner .container .row .col-md-7 .banner-left-body h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    #banner .container .row .col-md-7 .banner-left-body h1 {
+        line-height: 45px;
+        font-size: 40px;
+    }
+
+    /*    about me*/
+    #about .container .row .col-md-7 .aboutme {
+        text-align: center;
+    }
+    #about .container .row .col-md-7 .aboutme h2 {
+        font-size: 40px;
+    }
+    #about .container .row .col-md-7 .aboutme h3 {
+        font-size: 17px;
+    }
+    #about .container .row .col-md-7 .aboutme p {
+        font-size: 16px;
+    }
+    #about .container .row .col-md-7 .aboutme a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /*    my skill*/
+    #skill .container .row .about-skill p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    #skill h5 {
+        font-size: 20px;
+    }
+    /*    skillbar*/
+    #skill .container .row .skill-bar div.meter {
+        margin-left: 0;
+    }
+    #skill .container .row .skill-bar {
+        padding-top: 55px;
+    }
+
+    /*    my work*/
+    #work .container .row .col-md-4 .works {
+        margin-top: 35px;
+    }
+    #work .container .row .col-md-4 .works h5 {
+        font-size: 25px;
+    }
+    #work .container .row .col-md-4 .works p {
+        font-size: 16px;
+        margin: 15px 0px;
+    }
+
+    /*    port-folio*/
+    #portfolio .row .col-md-4 .portfolio-body {
+        height: 245px;
+    }
+    #portfolio .row .col-md-4 .portfolio-body .port-img img {}
+    #portfolio .row .col-md-4 .portfolio-body .port-overlay .overlay-body {
+        border: 0;
+        text-align: center;
+    }
+    #portfolio .row .col-md-4 .portfolio-body .port-overlay .overlay-body a {
+
+        font-size: 14px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-top: 50%;
+    }
+
+    /*    contact*/
+    #contact p {
+        font-size: 16px;
+    }
+    #contact .row .col-md-8 form .submit {
+        width: 235px;
+        padding: 20px 10px;
+        margin-top: 10px;
+    }
+    #contact .row .col-md-8 form input {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    #contact .row .col-md-8 form textarea {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /*    footer part*/
+    #footer p,
+    #footer ul {
+        text-align: center;
+
+    }
+    #footer p {
+        text-align: center;
+    }
+    #footer .container .row .col-md-6 ul {
+        float: none;
+        margin-left: 45%;
+        transform: translateX(-50%);
+    }
+    #footer .container .row .col-md-6 ul li {
+        margin-left: 5px;
+
+    }
+    #footer .container .row .col-md-6 ul li a {
+        border: 0;
+        display: inline-block;
+        width: 15px;
+        ;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    p {
+        font-size: 16px;
+    }
+    /*    banner part*/
+    #banner .container .row .col-md-7 .banner-left-body {
+        margin-top: 30%;
+    }
+
+    /*    about part*/
+    #about .container .row .col-md-7 .aboutme h3 {
+        font-size: 20px;
+    }
+
+    /*    skill bar*/
+    #skill .container .row .about-skill p {
+        margin-top: 20px;
+    }
+    /*    skillbar*/
+    #skill .container .row .skill-bar div.meter {
+        margin-left: 0;
+    }
+    /*    work part*/
+    #work .common-heading {
+        padding-bottom: 10px;
+    }
+    #work .container .row .col-md-4 .works {
+        margin-top: 25px;
+    }
+    #work .container .row .col-md-4 .works p {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    /*    port folio*/
+    #portfolio .row .col-md-4 .portfolio-body {
+        height: 400px;
+    }
+    /*    contact part*/
+    #contact .row .col-md-8 form .submit {
+        padding: 25px 60px;
+    }
+    /*    footer*/
+    #footer .container .row .col-md-6 ul li {
+        margin-left: 6px;
+
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*    banner part*/
+    #banner .container .row .col-md-7 .banner-left-body h1 {
+        font-size: 38px;
+    }
+    /*    about part*/
+    #about .container .row .col-md-7 .aboutme h3 {
+        font-size: 20px;
+    }
+    #about .container .row .col-md-7 .aboutme p {
+        font-size: 16px;
+    }
+    /*    about me part*/
+    #about .container .row .col-md-7 .aboutme a {
+        padding: 25px 15px;
+        width: 175px;
+    }
+
+    /*    skill part */
+    #skill .container .row .about-skill p {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+    /*    skillbar*/
+    #skill .container .row .skill-bar div.meter {
+        margin-left: 0;
+    }
+    #skill .container .row .skill-bar {
+        padding-top: 83px;
+    }
+
+    /*    work part */
+    #work .common-heading h3 {
+        margin-bottom: 20px;
+    }
+    #work .container .row .col-md-4 .works h5 {
+        font-size: 24px;
+    }
+    #work .container .row .col-md-4 .works p {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+    #work .container .row .col-md-4 .works {
+        margin-top: 30px;
+    }
+    /*    port folio*/
+    #portfolio .row .col-md-4 .portfolio-body {
+        height: 370px;
+    }
+    #portfolio .row .col-md-4 .portfolio-body .port-overlay .overlay-body a {
+        margin-top: 52%;
+    }
+    /*    contact*/
+    #contact .row .col-md-8 form .submit {
+        padding: 25px 45px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*    port folio*/
+    #portfolio .row .col-md-4 .portfolio-body {
+        height: 470px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

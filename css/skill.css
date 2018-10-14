@@ -1,0 +1,59 @@
+/* ––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* ––––––––––––>>> My Skills Area  <<<–––––––––– */
+
+.skillBar p {
+    padding-bottom: 50px;
+}
+
+#skillBar .container .row {
+    padding-top: 50px;
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+    background: #eee;
+    height: 5px;
+    border-radius: 3px;
+    transition: 0.1s linear;
+    transition-property: width, background-color;
+
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 5px 15px;
+}
+
+.skillbar-title span {
+    display: block;
+    height: 100%;
+}
+
+.skillbar-bar {
+    height: 5px;
+    width: 0px;
+    background: #6adcfa;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 35px;
+    color: #111111;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––– */
